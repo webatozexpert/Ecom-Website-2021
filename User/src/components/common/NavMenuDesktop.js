@@ -1,11 +1,11 @@
-import React, {Component} from 'react';
+import React, {Component,Fragment} from 'react';
 
 class NavMenuDesktop extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+            <Fragment>
+
+            </Fragment>
         );
     }
 }
