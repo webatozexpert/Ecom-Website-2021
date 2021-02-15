@@ -1,10 +1,22 @@
 import React, {Component,Fragment} from 'react';
+import {Card,Button,Container,Row,Col} from "react-bootstrap";
+import FeaturedProducts from "../components/home/FeaturedProducts";
+import Categories from "../components/home/Categories";
+import Collection from "../components/home/Collection";
+import NewArrival from "../components/home/NewArrival";
+
+
 
 class HomePage extends Component {
     render() {
         return (
             <Fragment>
-                <h1>This is home page</h1>
+
+
+                <NewArrival/>
+                <FeaturedProducts/>
+                <Collection/>
+                <Categories/>
             </Fragment>
         );
     }
