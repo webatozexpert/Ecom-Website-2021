@@ -57,6 +57,7 @@ class Categories extends Component {
                                             <h5 className="category-name">CATEGORY NAME</h5>
                                         </Card.Body>
                                     </Card>
+                                </Col>
                                 <Col className="p-0" key={1} xl={3} lg={3} md={3} sm={6} xs={6} >
                                     <Card className="h-100 w-100 text-center">
                                         <Card.Body>
