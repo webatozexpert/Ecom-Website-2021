@@ -11,18 +11,6 @@
     .product-price-on-card{
         font-size: 13px;
     }
-    .Mobile{
-
-    }
-    .Desktop{
-        display: none;
-    }
-    .slider-img{
-        height: 180px;
-    }
-    .TopSection{
-        margin-top: 60px;
-    }
 }
 
 @media (min-width: 375.98px) and (max-width: 575.98px){
@@ -38,19 +26,6 @@
     .product-price-on-card{
         font-size: 13px;
     }
-    .slider-img{
-        height: 180px;
-    }
-    .Mobile{
-
-    }
-    .Desktop{
-        display: none;
-    }
-    .TopSection{
-        margin-top: 60px;
-    }
-
 }
 
 
@@ -68,20 +43,6 @@
     .product-price-on-card{
         font-size: 13px;
     }
-    .Mobile{
-
-    }
-    .Desktop{
-        display: none;
-    }
-
-    .slider-img{
-        height: 180px;
-    }
-    .TopSection{
-        margin-top: 60px;
-    }
-
 }
 
 
@@ -89,33 +50,16 @@
     .section-sub-title{
         font-size: 13px;
     }
-    .Mobile{
-        display: none;
-    }
-    .Desktop{
-    }
+
 }
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    .Mobile{
-        display: none;
-    }
-    .Desktop{
-    }
 }
 
 
 @media (min-width: 1200px) {
 
-    .Mobile{
-        display: none;
-    }
-    .Desktop{
-    }
-
 }
-
-
 
