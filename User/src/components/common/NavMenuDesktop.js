@@ -1,5 +1,6 @@
 import React, {Component,Fragment} from 'react';
 import  {Container,Nav,Navbar, Row, Col, Button, InputGroup} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 class NavMenuDesktop extends Component {
     render() {
@@ -20,7 +21,7 @@ class NavMenuDesktop extends Component {
                         <a className="btn"><i className="fa h4 fa-heart"></i>  <sup><span className="badge text-white bg-danger">4</span></sup></a>
                         <a className="btn"><i className="fa h4  fa-bell"></i> <sup><span className="badge text-white bg-danger">4</span></sup></a>
                         <a className="btn"><i className="fa h4 fa-mobile-alt"></i> </a>
-                        <a className="h4 btn">LOGIN</a>
+                        <Link to="/onboard" className="h4 btn">LOGIN</Link>
                     </Col>
                 </Row>
             </Container>
