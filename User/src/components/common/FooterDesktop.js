@@ -1,5 +1,6 @@
 import React, {Component,Fragment} from 'react';
 import {Container,Col,Row} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 class FooterDesktop extends Component {
     render() {
@@ -17,24 +18,26 @@ class FooterDesktop extends Component {
                         </Col>
                         <Col className="p-2" lg={3} md={3} sm={6} xs={12}>
                             <h5 className="footer-menu-title">THE COMPANY</h5>
-                            <a className="footer-link">About Us</a><br/>
-                            <a className="footer-link">Contact Us</a><br/>
-                            <a className="footer-link">Our Team</a><br/>
+                            <Link to="/about" className="footer-link">About Us</Link><br/>
+                            <Link to="/contact" className="footer-link">Contact Us</Link><br/>
+
                             <h5 className="footer-menu-title mt-3">OFFICE ADDRESS</h5>
                             <p>Shekhertek 8,Mohammadpur, Adabor, Dhaka-1207, 01774688159 (Help-Line), Engr.Rabbil@yahoo.com</p>
                         </Col>
                         <Col className="p-2" lg={3} md={3} sm={6} xs={12}>
                             <h5 className="footer-menu-title">MORE INFO</h5>
-                            <a className="footer-link">How To Purchase</a><br/>
-                            <a className="footer-link">Privacy Policy</a><br/>
-                            <a className="footer-link">Refund Policy</a><br/>
+                            <Link to="/purchase" className="footer-link">How To Purchase</Link><br/>
+                            <Link to="/policy" className="footer-link">Privacy Policy</Link><br/>
+                            <Link  to="/refund" className="footer-link">Refund Policy</Link><br/>
                         </Col>
                         <Col className="p-2" lg={3} md={3} sm={6} xs={12}>
                             <h5 className="footer-menu-title">DOWNLOAD APP</h5>
-                            <a><img className="" src="https://hatil.com/sites/default/files/Apple%20sign.png"/></a><br/>
-                            <a><img className="mt-2" src="https://hatil.com/sites/default/files/Android%20sign.png"/></a>
+                            <a><img className="" src="Images/apple.png"/></a><br/>
+                            <a><img className="mt-2" src="Images/playstore.png"/></a>
+
                         </Col>
                     </Row>
+
                 </Container>
                 <Container fluid={true} className=" m-0 pt-3 pb-1 bg-dark">
                     <Container className="">
@@ -43,6 +46,7 @@ class FooterDesktop extends Component {
                             <p className="footer-text text-white">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
                         </Row>
                     </Container>
+
                 </Container>
             </div>
 
