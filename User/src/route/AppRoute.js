@@ -10,7 +10,8 @@ import AboutPage from "../pages/AboutPage";
 import ProductDetailsPage from "../pages/ProductDetailsPage";
 import NotificationPage from "../pages/NotificationPage";
 import FavouritePage from "../pages/FavouritePage";
-
+import CartPage from "../pages/CartPage";
+import OrderPage from "../pages/OrderPage";
 
 
 class AppRoute extends Component {
@@ -29,7 +30,8 @@ class AppRoute extends Component {
                     <Route exact path="/productDetails" component={ProductDetailsPage}/>
                     <Route exact path="/notification" component={NotificationPage}/>
                     <Route exact path="/favourite" component={FavouritePage}/>
-
+                    <Route exact path="/cart" component={CartPage}/>
+                    <Route exact path="/order" component={OrderPage}/>
                 </Switch>
 
             </Fragment>

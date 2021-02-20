@@ -14,7 +14,7 @@ class Favourite extends Component {
                     <Row >
                         <Col className="p-1" xl={3} lg={3} md={3} sm={6} xs={6} >
                             <Card className="card text-center w-100  image-box ">
-                                <img src="https://static-01.daraz.com.bd/p/e83135c4f08dba766d539651fb79d2fa.jpg_400x400q75.jpg"/>
+                                <img src="Images/product1.jpg"/>
                                 <Card.Body>
                                     <h5 className="product-name-on-card">ASUS TUF A15 FA506IU Ryzen 7 4800H GTX</h5>
                                     <p className="product-price-on-card">Price: 3000TK</p>
@@ -25,19 +25,7 @@ class Favourite extends Component {
 
                         <Col className="p-1" xl={3} lg={3} md={3} sm={6} xs={6} >
                             <Card className="card text-center w-100  image-box ">
-                                <img src="https://static-01.daraz.com.bd/p/e83135c4f08dba766d539651fb79d2fa.jpg_400x400q75.jpg"/>
-                                <Card.Body>
-                                    <h5 className="product-name-on-card">ASUS TUF A15 FA506IU Ryzen 7 4800H GTX</h5>
-                                    <p className="product-price-on-card">Price: 3000TK</p>
-                                    <Button className="btn btn-sm site-btn"><i className="fa fa-trash-alt"></i> Remove </Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-
-
-                        <Col className="p-1" xl={3} lg={3} md={3} sm={6} xs={6} >
-                            <Card className="card text-center w-100  image-box ">
-                                <img src="https://static-01.daraz.com.bd/p/e83135c4f08dba766d539651fb79d2fa.jpg_400x400q75.jpg"/>
+                                <img src="Images/product2.jpg"/>
                                 <Card.Body>
                                     <h5 className="product-name-on-card">ASUS TUF A15 FA506IU Ryzen 7 4800H GTX</h5>
                                     <p className="product-price-on-card">Price: 3000TK</p>
@@ -49,7 +37,19 @@ class Favourite extends Component {
 
                         <Col className="p-1" xl={3} lg={3} md={3} sm={6} xs={6} >
                             <Card className="card text-center w-100  image-box ">
-                                <img src="https://static-01.daraz.com.bd/p/e83135c4f08dba766d539651fb79d2fa.jpg_400x400q75.jpg"/>
+                                <img src="Images/product1.jpg"/>
+                                <Card.Body>
+                                    <h5 className="product-name-on-card">ASUS TUF A15 FA506IU Ryzen 7 4800H GTX</h5>
+                                    <p className="product-price-on-card">Price: 3000TK</p>
+                                    <Button className="btn btn-sm site-btn"><i className="fa fa-trash-alt"></i> Remove </Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+
+
+                        <Col className="p-1" xl={3} lg={3} md={3} sm={6} xs={6} >
+                            <Card className="card text-center w-100  image-box ">
+                                <img src="Images/product2.jpg"/>
                                 <Card.Body>
                                     <h5 className="product-name-on-card">ASUS TUF A15 FA506IU Ryzen 7 4800H GTX</h5>
                                     <p className="product-price-on-card">Price: 3000TK</p>
@@ -62,7 +62,7 @@ class Favourite extends Component {
 
                         <Col className="p-1" xl={3} lg={3} md={3} sm={6} xs={6} >
                             <Card className="card text-center w-100  image-box ">
-                                <img src="https://static-01.daraz.com.bd/p/e83135c4f08dba766d539651fb79d2fa.jpg_400x400q75.jpg"/>
+                                <img src="Images/product1.jpg"/>
                                 <Card.Body>
                                     <h5 className="product-name-on-card">ASUS TUF A15 FA506IU Ryzen 7 4800H GTX</h5>
                                     <p className="product-price-on-card">Price: 3000TK</p>
@@ -73,7 +73,7 @@ class Favourite extends Component {
 
                         <Col className="p-1" xl={3} lg={3} md={3} sm={6} xs={6} >
                             <Card className="card text-center w-100  image-box ">
-                                <img src="https://static-01.daraz.com.bd/p/e83135c4f08dba766d539651fb79d2fa.jpg_400x400q75.jpg"/>
+                                <img src="Images/product2.jpg"/>
                                 <Card.Body>
                                     <h5 className="product-name-on-card">ASUS TUF A15 FA506IU Ryzen 7 4800H GTX</h5>
                                     <p className="product-price-on-card">Price: 3000TK</p>
