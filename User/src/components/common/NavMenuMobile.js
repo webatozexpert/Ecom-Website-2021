@@ -2,6 +2,7 @@ import React, {Component,Fragment} from 'react';
 import {Button, Col, Container, Navbar, Row} from "react-bootstrap";
 import MegaMenu from "../home/MegaMenu";
 import MegaMenuMobile from "../home/MegaMenuMobile";
+import {Link} from "react-router-dom";
 
 class NavMenuMobile extends Component {
 
@@ -43,10 +44,14 @@ class NavMenuMobile extends Component {
             <Fragment>
                 <Navbar fluid={"true"} className="fixed-top shadow-sm p-2 m-0 bg-white">
                     <a onClick={this.MenuBarClickHandler} className=" mx-2 navbar-brand"><i className="fa fa-bars"></i></a>
-                    <a href="" className="btn"> <img className="nav-logo" src="Images/logo.png"/></a>
                     <Button className="cart-btn"><i className="fa fa-shopping-cart"></i> 4 items </Button>
+                    <Link to="/favourite" className="btn"><i className="fa h4 fa-heart"></i>  <sup><span className="badge text-white bg-danger">4</span></sup></Link>
+                    <Link to="/notification" className="btn"><i className="fa h4  fa-bell"></i> <sup><span className="badge text-white bg-danger">4</span></sup></Link>
+                    <Link className="btn"><i className="fa h4 fa-search"></i>  </Link>
                 </Navbar>
                 <div  className={this.state.SideNavState}>
+                    <Link to="/" className="btn"> <img className="nav-logo" src="Images/logo.png"/></Link>
+                    <hr/>
                     <MegaMenuMobile/>
                 </div>
 

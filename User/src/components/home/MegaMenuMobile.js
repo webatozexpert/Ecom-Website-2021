@@ -36,7 +36,7 @@ class MegaMenuMobile extends Component {
         return (
             <div className="accordionMenuDivMobile">
                 <div className="accordionMenuDivInsideMobile">
-                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panelMobile">
                         <ul>
                             <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
@@ -47,7 +47,7 @@ class MegaMenuMobile extends Component {
                     </div>
 
 
-                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panelMobile">
                         <ul>
                             <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
@@ -55,7 +55,7 @@ class MegaMenuMobile extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panelMobile">
                         <ul>
                             <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
@@ -63,7 +63,7 @@ class MegaMenuMobile extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panelMobile">
                         <ul>
                             <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
@@ -71,7 +71,7 @@ class MegaMenuMobile extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panelMobile">
                         <ul>
                             <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
@@ -79,7 +79,7 @@ class MegaMenuMobile extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panelMobile">
                         <ul>
                             <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>

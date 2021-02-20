@@ -37,7 +37,7 @@ class MegaMenu extends Component {
         return (
             <div className="accordionMenuDiv">
                 <div className="accordionMenuDivInside">
-                    <button className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>
@@ -52,7 +52,7 @@ class MegaMenu extends Component {
                     </div>
 
 
-                    <button className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>
@@ -62,7 +62,7 @@ class MegaMenu extends Component {
                     </div>
 
 
-                    <button className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>
@@ -72,7 +72,7 @@ class MegaMenu extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>
@@ -82,7 +82,7 @@ class MegaMenu extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>
@@ -92,7 +92,7 @@ class MegaMenu extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>
@@ -102,7 +102,7 @@ class MegaMenu extends Component {
                         </ul>
                     </div>
 
-                    <button className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>
@@ -112,7 +112,7 @@ class MegaMenu extends Component {
                         </ul>
                     </div>
 
-                    <button  className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button  className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>
@@ -122,38 +122,7 @@ class MegaMenu extends Component {
                         </ul>
                     </div>
 
-                    <button  className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
-                    <div className="panel">
-                        <ul>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                        </ul>
-                    </div>
-
-
-                    <button  className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
-                    <div className="panel">
-                        <ul>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                        </ul>
-                    </div>
-
-                    <button  className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
-                    <div className="panel">
-                        <ul>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
-                        </ul>
-                    </div>
-
-                    <button  className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button  className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>
@@ -164,7 +133,27 @@ class MegaMenu extends Component {
                     </div>
 
 
-                    <button  className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button  className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <div className="panel">
+                        <ul>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                        </ul>
+                    </div>
+
+                    <button  className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <div className="panel">
+                        <ul>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                        </ul>
+                    </div>
+
+                    <button  className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>
@@ -175,7 +164,7 @@ class MegaMenu extends Component {
                     </div>
 
 
-                    <button  className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button  className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>
@@ -186,7 +175,18 @@ class MegaMenu extends Component {
                     </div>
 
 
-                    <button  className="accordion"> <img className="accordionMenuIcon" src="http://demo.ecom.rabbil.com/static/media/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <button  className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
+                    <div className="panel">
+                        <ul>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                            <li><a href="#" className="accordionItem">Man Shirt</a></li>
+                        </ul>
+                    </div>
+
+
+                    <button  className="accordion"> <img className="accordionMenuIcon" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
                     <div className="panel">
                         <ul>
                             <li><a href="#" className="accordionItem">Man Shirt</a></li>

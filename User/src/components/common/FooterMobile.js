@@ -1,5 +1,6 @@
 import React, {Component,Fragment} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 class FooterMobile extends Component {
     render() {
@@ -17,6 +18,16 @@ class FooterMobile extends Component {
                             <a href=""><i className="fab m-1 h4 fa-instagram"></i></a>
                             <a href=""><i className="fab m-1 h4 fa-twitter"></i></a>
                         </Col>
+                        <Col sm={6} xm={6}>
+                            <h5 className="footer-menu-title">More</h5>
+                            <Link to="/about" className="footer-link">About Us</Link><br/>
+                            <Link to="/contact" className="footer-link">Contact Us</Link><br/>
+                            <Link to="/purchase" className="footer-link">How To Purchase</Link><br/>
+                            <Link to="/policy" className="footer-link">Privacy Policy</Link><br/>
+                            <Link  to="/refund" className="footer-link">Refund Policy</Link><br/>
+                        </Col>
+                        <p className="mt-3">Change Language</p>
+                        <p className="mt-1" id="google_translate_element"></p>
                     </Row>
                 </Container>
                 <Container fluid={true} className=" m-0 pt-3 pb-1 bg-dark">
@@ -26,6 +37,7 @@ class FooterMobile extends Component {
                             <p className="footer-text text-white">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. T </p>
                         </Row>
                     </Container>
+
                 </Container>
             </div>
 
