@@ -121,7 +121,7 @@ class Contact extends Component {
                                 <Col className="p-0 Desktop m-0" md={6} lg={6} sm={6} xs={6}>
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.259271704934!2d89.44422201447745!3d24.854992951599115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fdabfa65fd3df5%3A0xd636559ea39360d5!2sAver-Fresh%20Limited!5e0!3m2!1sen!2sbd!4v1614275477715!5m2!1sen!2sbd"
-                                        width="600" height="450"  
+                                        width="600" height="450"
                                         loading="lazy"></iframe>
                                 </Col>
                             </Row>
