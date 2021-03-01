@@ -50,7 +50,7 @@ class NavMenuMobile extends Component {
                     <Link className="btn"><i className="fa h4 fa-search"></i>  </Link>
                 </Navbar>
                 <div  className={this.state.SideNavState}>
-                    <Link to="/" className="btn"> <img className="nav-logo" src="http://demo.ecom.rabbil.com/static/media/BigExpress.432afd37.png"/></Link>
+                    <Link to="/" className="btn"> <img className="nav-logo" src="Images/logo.png"/></Link>
                     <hr/>
                     <MegaMenuMobile/>
                 </div>
