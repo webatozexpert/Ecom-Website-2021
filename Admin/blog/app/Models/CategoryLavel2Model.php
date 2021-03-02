@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class CatgeoryLavel2Model extends Model
+class CategoryLavel2Model extends Model
 {
     use HasFactory;
     public $table='category_level2';
