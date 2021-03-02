@@ -4,13 +4,12 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <title>Ecom Admin</title>
+    <title>Ecommerce Admin</title>
+    <link rel="stylesheet" href="{{asset('css/app.css')}}";
 </head>
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
 <div id="root"></div>
-This home Page
-
+<script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>
