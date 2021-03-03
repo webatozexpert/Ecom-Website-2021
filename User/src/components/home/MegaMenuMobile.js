@@ -47,45 +47,40 @@ class MegaMenuMobile extends Component {
                     </div>
 
 
-                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
-                    <div className="panelMobile">
-                        <ul>
-                            <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
-                        </ul>
-                    </div>
+                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>                    <div className="panelMobile">
+                    <ul>
+                        <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
+                        <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
+                    </ul>
+                </div>
 
-                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
-                    <div className="panelMobile">
-                        <ul>
-                            <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
-                        </ul>
-                    </div>
+                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>                    <div className="panelMobile">
+                    <ul>
+                        <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
+                        <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
+                    </ul>
+                </div>
 
-                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
-                    <div className="panelMobile">
-                        <ul>
-                            <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
-                        </ul>
-                    </div>
+                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>                    <div className="panelMobile">
+                    <ul>
+                        <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
+                        <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
+                    </ul>
+                </div>
 
-                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
-                    <div className="panelMobile">
-                        <ul>
-                            <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
-                        </ul>
-                    </div>
+                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>                    <div className="panelMobile">
+                    <ul>
+                        <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
+                        <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
+                    </ul>
+                </div>
 
-                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>
-                    <div className="panelMobile">
-                        <ul>
-                            <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
-                            <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
-                        </ul>
-                    </div>
+                    <button className="accordionMobile"> <img className="accordionMenuIconMobile" src="Images/tshirt.87175310.svg"/>   Men's Clothing</button>                    <div className="panelMobile">
+                    <ul>
+                        <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
+                        <li><a href="#" className="accordionItemMobile">Man Shirt</a></li>
+                    </ul>
+                </div>
 
 
                 </div>
