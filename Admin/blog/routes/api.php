@@ -1,7 +1,9 @@
 <?php
 
+
 use App\Http\Controllers\CategoryDetailsController;
 use App\Http\Controllers\ContactListController;
+use App\Http\Controllers\ProductListController;
 use App\Http\Controllers\SiteInfoController;
 use App\Http\Controllers\VisitorListController;
 use Illuminate\Http\Request;
@@ -15,3 +17,6 @@ Route::post('/SendContactDetails',[ContactListController::class,'SendContactDeta
 Route::get('/SendSiteInfo',[SiteInfoController::class,'SendSiteInfo']);
 
 Route::get('/SendCategoryDetails',[CategoryDetailsController::class,'SendCategoryDetails']);
+Route::get('/ProductListByRemark/{remark}',[ProductListController::class,'ProductListByRemark']);
+Route::get('/ProductListBySubCategory/{Category}/{SubCategory}',[ProductListController::class,'ProductListBySubCategory']);
+Route::get('/ProductListByCategory/{Category}',[ProductListController::class,'ProductListByCategory']);
