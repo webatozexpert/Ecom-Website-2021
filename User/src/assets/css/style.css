@@ -13,4 +13,12 @@
 
 @import "typo.css";
 @import "form.css";
+@import "onboard.css";
+@import "map.css";
+
+@import "notification.css";
+@import "ProductDetails.css";
+@import "cart.css";
+
+
 @import "responsive.css";
