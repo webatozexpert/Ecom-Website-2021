@@ -3,20 +3,24 @@ import {Card, Col, Container, Row} from "react-bootstrap";
 import axios from "axios";
 import ApiURL from "../../api/ApiURL";
 import {Link} from "react-router-dom";
+import FeaturedProductLoader from "../placeholder/FeaturedProductLoader";
+import CategoryPlaceholder from "../placeholder/CategoryPlaceholder";
 
 class Categories extends Component {
 
     constructor() {
         super();
         this.state={
-            MenuData:[]
+            MenuData:[],
+            isLoading:"BetweenTwoSection",
+            MainDiv:"d-none"
         }
     }
 
 
     componentDidMount() {
         axios.get(ApiURL.SendCategoryDetails).then(response=> {
-            this.setState({MenuData:response.data})
+            this.setState({MenuData:response.data,isLoading:"d-none",MainDiv:" "})
         }).catch(error=> {
 
         });
@@ -44,14 +48,21 @@ class Categories extends Component {
 
 
         return (
+
+
+
             <Fragment>
-                <Container className="text-center pt-3  BetweenTwoSection" fluid={true}>
-                    <h4 className="section-title">CATEGORIES</h4>
-                    <h6 className="section-sub-title pb-3">Some Of Our Exclusive Collection, You May Like</h6>
-                    <Row>
-                        {MyView}
-                    </Row>
-                </Container>
+                <CategoryPlaceholder isLoading={this.state.isLoading}/>
+
+                <div className={this.state.MainDiv}>
+                    <Container className="text-center pt-3  BetweenTwoSection" fluid={true}>
+                        <h4 className="section-title">CATEGORIES</h4>
+                        <h6 className="section-sub-title pb-3">Some Of Our Exclusive Collection, You May Like</h6>
+                        <Row>
+                            {MyView}
+                        </Row>
+                    </Container>
+                </div>
 
             </Fragment>
         );

@@ -5,13 +5,18 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import axios from "axios";
 import ApiURL from "../../api/ApiURL";
+import FeaturedProductLoader from "../placeholder/FeaturedProductLoader";
+import NewArrivalPlaceholder from "../placeholder/NewArrivalPlaceholder";
+import {Link} from "react-router-dom";
 
 class NewArrival extends Component {
 
     constructor(props) {
         super(props);
         this.state={
-            ProductData:[]
+            ProductData:[],
+            isLoading:"",
+            MainDiv:"d-none"
         }
         this.next=this.next.bind(this);
         this.previous=this.previous.bind(this)
@@ -21,7 +26,7 @@ class NewArrival extends Component {
 
     componentDidMount() {
         axios.get(ApiURL.ProductListByRemark("NEW")).then(response=> {
-            this.setState({ProductData:response.data})
+            this.setState({ProductData:response.data,isLoading:"d-none",MainDiv:" "})
         }).catch(error=> {
 
         });
@@ -81,27 +86,31 @@ class NewArrival extends Component {
 
             if(ProductList.special_price=="NA"){
                 return   <div className="p-1">
-                    <Card className="card   text-center w-100  image-box ">
-                        <img src={ProductList.image}/>
-                        <Card.Body>
-                            <h5 className="product-name-on-card">{ProductList.title }</h5>
-                            <p className="product-price-on-card">Price: { ProductList.price}TK</p>
-                        </Card.Body>
-                    </Card>
+                    <Link to={"productDetails/"+ProductList.product_code}>
+                        <Card className="card   text-center w-100  image-box ">
+                            <img src={ProductList.image}/>
+                            <Card.Body>
+                                <h5 className="product-name-on-card">{ProductList.title }</h5>
+                                <p className="product-price-on-card">Price: { ProductList.price}TK</p>
+                            </Card.Body>
+                        </Card>
+                    </Link>
                 </div>
             }
             else{
 
                 return  <div className="p-1">
-                    <Card className="card  text-center w-100  image-box ">
-                        <img src={ProductList.image}/>
-                        <Card.Body>
-                            <h5 className="product-name-on-card">{ProductList.title }</h5>
-                            <p className="product-price-on-card">
-                                Price: <strike class="text-secondary">{ ProductList.price}TK</strike>  { ProductList.special_price}TK
-                            </p>
-                        </Card.Body>
-                    </Card>
+                    <Link to={"productDetails/"+ProductList.product_code}>
+                        <Card className="card  text-center w-100  image-box ">
+                            <img src={ProductList.image}/>
+                            <Card.Body>
+                                <h5 className="product-name-on-card">{ProductList.title }</h5>
+                                <p className="product-price-on-card">
+                                    Price: <strike class="text-secondary">{ ProductList.price}TK</strike>  { ProductList.special_price}TK
+                                </p>
+                            </Card.Body>
+                        </Card>
+                    </Link>
                 </div>
             }
 
@@ -113,22 +122,28 @@ class NewArrival extends Component {
 
 
         return (
-            <Container className="text-center BetweenTwoSection" fluid={true}>
-                <h4 className="section-title px-0 mx-0 ">NEW ARRIVAL
-                    <a className="btn btn-sm ml-2 site-btn" onClick={this.previous} >
-                        <i className="fa fa-angle-left"></i>
-                    </a>
-                    <a className="btn btn-sm ml-2 site-btn" onClick={this.next}>
-                        <i className="fa fa-angle-right"></i>
-                    </a>
-                </h4>
-                <h6 className="section-sub-title pb-3">Some Of Our Exclusive Collection, You May Like</h6>
-                <Slider  ref={c=>(this.slider=c)}   {...settings}>
-                    {MyView}
-                </Slider>
+            <Fragment>
+                <NewArrivalPlaceholder isLoading={this.state.isLoading}/>
+
+                <div className={this.state.MainDiv}>
+                    <Container className="text-center BetweenTwoSection" fluid={true}>
+                        <h4 className="section-title px-0 mx-0 ">NEW ARRIVAL
+                            <a className="btn btn-sm ml-2 site-btn" onClick={this.previous} >
+                                <i className="fa fa-angle-left"></i>
+                            </a>
+                            <a className="btn btn-sm ml-2 site-btn" onClick={this.next}>
+                                <i className="fa fa-angle-right"></i>
+                            </a>
+                        </h4>
+                        <h6 className="section-sub-title pb-3">Some Of Our Exclusive Collection, You May Like</h6>
+                        <Slider  ref={c=>(this.slider=c)}   {...settings}>
+                            {MyView}
+                        </Slider>
+                    </Container>
+                </div>
 
 
-            </Container>
+            </Fragment>
         );
     }
 }

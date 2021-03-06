@@ -4,7 +4,7 @@ import MegaMenu from "./MegaMenu";
 import SliderHome from "./SliderHome";
 import ApiURL from "../../api/ApiURL";
 import axios from 'axios';
-
+import SliderLoader from "../placeholder/SliderLoader";
 
 class HomeTop extends Component {
     constructor() {
@@ -40,7 +40,7 @@ class HomeTop extends Component {
         return (
             <Fragment>
 
-
+                <SliderLoader isLoading={this.state.isLoading} />
 
                 <div className={this.state.MainDiv}>
                     <Container className="p-0 TopSection  overflow-hidden" fluid={true}>
