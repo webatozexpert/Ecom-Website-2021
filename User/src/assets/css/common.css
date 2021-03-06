@@ -36,3 +36,13 @@ body {
 .Link:hover{
     text-decoration: none !important;
 }
+
+.ph-item{
+    border: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    text-decoration: none !important;
+}

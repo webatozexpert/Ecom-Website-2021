@@ -9,3 +9,9 @@
     border:0.5px solid #E43023;
     background: #E43023 !important;
 }
+
+.search-autocomplete{
+    z-index: 10000;
+    height: 100px;
+    background-color: white;
+}

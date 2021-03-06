@@ -9,3 +9,21 @@
 .slick-slide{
     height:auto !important;
 }
+.sliderImg{
+    margin:80px 20px 100px 20px ;
+    width: 100% !important;
+    height:auto !important;
+}
+.sliderTitleDiv{
+    padding:70px ;
+}
+.sliderTitle{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+.sliderSubTitle{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
