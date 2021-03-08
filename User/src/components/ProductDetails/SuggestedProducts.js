@@ -5,7 +5,7 @@ class SuggestedProducts extends Component {
     render() {
         return (
             <Fragment>
-                <Container className="text-center BetweenTwoSection">
+                <Container fluid={true} className="text-center BetweenTwoSection">
                     <h4 className="section-title">YOU MAY LIKE</h4>
                     <h6 className="section-sub-title pb-3">Some Of Our Exclusive Collection, You May Like</h6>
                     <Row>

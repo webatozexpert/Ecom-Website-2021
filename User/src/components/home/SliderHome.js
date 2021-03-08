@@ -27,7 +27,9 @@ class SliderHome extends Component {
                             <h1 style={{color:SliderList.text_color}} className="sliderSubTitle">
                                 {SliderList.sub_title}
                             </h1>
+
                             <Link to={"productDetails/"+SliderList.product_code} className="btn site-btn px-5">More Info</Link>
+
                         </div>
                         <div className="col-md-6 text-center">
                             <img className="sliderImg" src={SliderList.image}/>

@@ -6,6 +6,8 @@ import FooterMobile from "../components/common/FooterMobile";
 import axios from "axios";
 import ApiURL from "../api/ApiURL";
 import ListBySubCategory from "../components/ProductDetails/ListBySubCategory";
+import ProductListLoader from "../components/placeholder/ProductListLoader";
+import ListByCategory from "../components/ProductDetails/ListByCategory";
 class ProductListBySubCategory extends Component {
 
     constructor({match}) {
@@ -13,7 +15,9 @@ class ProductListBySubCategory extends Component {
         this.state={
             SubCategory:match.params.SubCategory,
             Category:match.params.Category,
-            ProductData:[]
+            ProductData:[],
+            isLoading:"",
+            MainDiv:"d-none"
         }
 
     }
@@ -22,7 +26,7 @@ class ProductListBySubCategory extends Component {
     componentDidMount() {
         window.scroll(0,0)
         axios.get(ApiURL.ProductListBySubCategory(this.state.Category,this.state.SubCategory)).then(response=> {
-            this.setState({ProductData:response.data})
+            this.setState({ProductData:response.data,isLoading:"d-none",MainDiv:" "})
         }).catch(error=> {
 
         });
@@ -37,7 +41,16 @@ class ProductListBySubCategory extends Component {
                 <div className="Mobile">
                     <NavMenuMobile/>
                 </div>
-                <ListBySubCategory SubCategory={this.state.SubCategory}  ProductData={this.state.ProductData} />
+
+
+
+                <ProductListLoader isLoading={this.state.isLoading}/>
+                <div className={this.state.MainDiv}>
+                    <ListBySubCategory  Category={this.state.Category} SubCategory={this.state.SubCategory}  ProductData={this.state.ProductData} />
+                </div>
+
+
+
                 <div className="Desktop">
                     <FooterDesktop/>
                 </div>
