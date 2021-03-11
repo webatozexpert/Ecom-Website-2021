@@ -22,16 +22,16 @@ class SliderHome extends Component {
             return <div  className="container-fluid m-0 p-0 overflow-hidden w-100  shadow-sm">
                 <div style={{backgroundColor:SliderList.bg_color}} className="m-0 p-0">
                     <div className="row card-body">
-                        <div className="col-md-6 sliderTitleDiv text-center">
+                        <div className="col-md-4 sliderTitleDiv text-center">
                             <h1 style={{color:SliderList.text_color}} className="sliderTitle">{SliderList.title}</h1>
                             <h1 style={{color:SliderList.text_color}} className="sliderSubTitle">
                                 {SliderList.sub_title}
                             </h1>
 
-                            <Link to={"productDetails/"+SliderList.product_code} className="btn site-btn px-5">More Info</Link>
+                            <Link to={"productDetails/"+SliderList.product_code} className="btn site-btn px-5">Click Details</Link>
 
                         </div>
-                        <div className="col-md-6 text-center">
+                        <div className="col-md-8 text-center">
                             <img className="sliderImg" src={SliderList.image}/>
                         </div>
                     </div>

@@ -1,6 +1,6 @@
 .btn {
     border: none !important;
-    border-radius: 0px !important;
+    border-radius: 10px !important;
 }
 .btn:focus {
     box-shadow: none;
@@ -10,6 +10,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     color: white !important;
     background: #E43023 !important;
+    margin: 16px 5px 5px 30px ;
 }
 
 .site-btn:active{
