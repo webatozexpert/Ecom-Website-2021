@@ -12,54 +12,41 @@ import FooterDesktop from "../components/common/FooterDesktop";
 import FooterMobile from "../components/common/FooterMobile";
 import axios from "axios";
 import ApiURL from "../api/ApiURL";
-
 class HomePage extends Component {
-
-
-
     componentDidMount() {
         window.scroll(0,0);
-        this.SendVisitorDetails();
+        this.GetVisitorDetails();
     }
-
-
-    SendVisitorDetails=()=>{
-    axios.get(ApiURL.VisitorDetails).then().catch();
-
+    GetVisitorDetails=()=>{
+        axios.get(ApiURL.VisitorDetails).then().catch();
     }
-
     render() {
         return (
             <Fragment>
-
                 <div className="Desktop">
                     <NavMenuDesktop/>
                     <HomeTop/>
                 </div>
-
                 <div className="Mobile">
                     <NavMenuMobile/>
                     <HomeTopMobile/>
                 </div>
 
-                <NewArrival/>
+
                 <FeaturedProducts/>
+                <NewArrival/>
                 <Collection/>
                 <Categories/>
 
-                <div  className="Desktop">
+
+                <div className="Desktop">
                     <FooterDesktop/>
                 </div>
-
-                <div  className="Mobile">
+                <div className="Mobile">
                     <FooterMobile/>
                 </div>
-
-
-
             </Fragment>
         );
     }
 }
-
 export default HomePage;

@@ -14,6 +14,7 @@ import CartPage from "../pages/CartPage";
 import OrderPage from "../pages/OrderPage";
 import ProductListByCategory from "../pages/ProductListByCategory";
 import ProductListBySubCategory from "../pages/ProductListBySubCategory";
+import SearchPage from "../pages/SearchPage";
 
 
 class AppRoute extends Component {
@@ -37,10 +38,7 @@ class AppRoute extends Component {
                     <Route exact path="/ProductListByCategory/:Category" render={(props) => <ProductListByCategory {...props} key={Date.now()}/>}/>
                     <Route exact path="/ProductListBySubCategory/:Category/:SubCategory" render={(props) => <ProductListBySubCategory {...props} key={Date.now()}/>}/>
 
-
-
-
-
+                    <Route exact path="/ProductListBySearch/:SearchKey" render={(props) => <SearchPage {...props} key={Date.now()}/>}/>
 
                 </Switch>
             </Fragment>
