@@ -1,14 +1,11 @@
 import React, {Component, Fragment} from 'react';
-import {Card, Col, Container, Row} from "react-bootstrap";
+import {Breadcrumb, Card, Col, Container, Row} from "react-bootstrap";
 import axios from 'axios';
 import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 import ApiURL from "../../api/ApiURL";
 import {toast, ToastContainer} from "react-toastify";
+import {Link} from "react-router-dom";
 class About extends Component {
-    componentDidMount() {
-        window.scroll(0,0)
-    }
-
     constructor() {
         super();
         this.state={
@@ -30,13 +27,13 @@ class About extends Component {
                 }
                 else{
                     toast.error("Something Went Wrong ! Try Again",{
-                        position: "top-right"
+                        position:"bottom-center"
                     });
                 }
 
             }).catch(error=> {
                 toast.error("Something Went Wrong ! Try Again",{
-                    position: "top-right"
+                    position:"bottom-center"
                 });
             });
         }
@@ -49,47 +46,21 @@ class About extends Component {
     render() {
         return (
             <Fragment>
+
                 <Container className="TopSection">
+                    <Breadcrumb>
+                        <Breadcrumb.Item> <Link to="/">Home</Link>    </Breadcrumb.Item>
+                        <Breadcrumb.Item> <Link to="/about">About</Link>    </Breadcrumb.Item>
+
+                    </Breadcrumb>
                     <Row>
-
-
                         <Col className="mt-2" md={12} lg={12} sm={12} xs={12}>
-
-                            <Card className={this.state.loaderDiv}>
-                                <Card.Body>
-                                    <div className="ph-item">
-                                        <div className="ph-col-12">
-                                            <div className="ph-row">
-                                                <div className="ph-col-12"></div>
-                                                <div className="ph-col-12"></div>
-                                                <div className="ph-col-12"></div>
-                                                <div className="ph-col-12"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="ph-item">
-                                        <div className="ph-col-12">
-                                            <div className="ph-row">
-                                                <div className="ph-col-12"></div>
-                                                <div className="ph-col-12"></div>
-                                                <div className="ph-col-12"></div>
-                                                <div className="ph-col-12"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </Card.Body>
-                            </Card>
-
                             <Card className={this.state.mainDiv}>
                                 <Card.Body>
                                     { ReactHtmlParser(this.state.about) }
                                 </Card.Body>
                             </Card>
-
                         </Col>
-
                     </Row>
                 </Container>
 
