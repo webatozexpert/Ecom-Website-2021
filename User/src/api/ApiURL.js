@@ -35,7 +35,6 @@ class ApiURL{
         return this.BaseURL+"ProductBySearch/"+SearchKey;
     }
 
-
     static  CreateOtp(Mobile){
         return this.BaseURL+"CreateOTP/"+Mobile;
     }
