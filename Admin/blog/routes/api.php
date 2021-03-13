@@ -3,6 +3,7 @@
 
 use App\Http\Controllers\CategoryDetailsController;
 use App\Http\Controllers\ContactListController;
+
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\ProductDetailsController;
@@ -32,5 +33,6 @@ Route::get('/ProductDetails/{code}',[ProductDetailsController::class,'ProductDet
 Route::get('/NotificationHistory',[NotificationController::class,'NotificationHistory']);
 
 Route::get('/ProductBySearch/{key}',[ProductListController::class,'ProductBySearch']);
+
 
 Route::get('/CreateOTP/{mobile}',[LoginController::class,'CreateOTP']);
