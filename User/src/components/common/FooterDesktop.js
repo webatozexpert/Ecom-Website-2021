@@ -8,6 +8,7 @@ import {toast, ToastContainer} from "react-toastify";
 
 class FooterDesktop extends Component {
 
+
     constructor() {
         super();
         this.state={
@@ -17,6 +18,7 @@ class FooterDesktop extends Component {
             facebookLink:"",
             twitterLink:"",
             instagramLink:"",
+            youtubeLink:"",
             address:"",
             aboutCompany:"",
             deliveryNotice:"",
@@ -105,10 +107,7 @@ class FooterDesktop extends Component {
                             <Col className="p-2" lg={3} md={3} sm={6} xs={12}>
                                 <h5 className="footer-menu-title">ABOUT COMPANY</h5>
                                 <p> { ReactHtmlParser(this.state.aboutCompany) }</p>
-                                <h5 className="footer-menu-title">SOCIAL LINK</h5>
-                                <a target="_blank" href={this.state.facebookLink}><i className="fab m-1 h4 fa-facebook"></i></a>
-                                <a target="_blank" href={this.state.instagramLink}><i className="fab m-1 h4 fa-instagram"></i></a>
-                                <a target="_blank" href={this.state.twitterLink}><i className="fab m-1 h4 fa-twitter"></i></a>
+
                             </Col>
                             <Col className="p-2" lg={3} md={3} sm={6} xs={12}>
                                 <h5 className="footer-menu-title">THE COMPANY</h5>
@@ -127,7 +126,15 @@ class FooterDesktop extends Component {
                             <Col className="p-2" lg={3} md={3} sm={6} xs={12}>
                                 <h5 className="footer-menu-title">DOWNLOAD APP</h5>
                                 <a target="_blank" href={this.state.iosLink}><img className="" src="Images/apple.png"/></a><br/>
-                                <a target="_blank" href={this.state.androidLink}><img className="mt-2" src="Images/playstore.png"/></a>
+                                <a target="_blank" href={this.state.androidLink}><img className="mt-2" src="Images/playstore.png"/></a><br/><br/>
+                                <h5 className="footer-menu-title">SOCIAL LINK</h5>
+                                <a target="_blank" href={this.state.facebookLink}><i className="fab m-1 h4 fa-facebook"></i></a>
+                                <a target="_blank" href={this.state.instagramLink}><i className="fab m-1 h4 fa-instagram"></i></a>
+                                <a target="_blank" href={this.state.twitterLink}><i className="fab m-1 h4 fa-twitter"></i></a>
+                                <a target="_blank" href={this.state.youtubeLink}><i className="fab m-1 h4 fa-youtube"></i></a>
+
+
+
                             </Col>
                         </Row>
 

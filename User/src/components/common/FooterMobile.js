@@ -96,11 +96,13 @@ class FooterMobile extends Component {
                         </Col>
                         <Col sm={6} xm={6}>
                             <h5 className="footer-menu-title">More</h5>
+
                             <Link to="/about" className="footer-link">About Us</Link><br/>
                             <Link to="/contact" className="footer-link">Contact Us</Link><br/>
                             <Link to="/purchase" className="footer-link">How To Purchase</Link><br/>
                             <Link to="/policy" className="footer-link">Privacy Policy</Link><br/>
                             <Link  to="/refund" className="footer-link">Refund Policy</Link><br/>
+
                         </Col>
 
                     </Row>

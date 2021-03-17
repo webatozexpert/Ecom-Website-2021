@@ -32,9 +32,9 @@ class HomePage extends Component {
                     <HomeTopMobile/>
                 </div>
 
-
-                <FeaturedProducts/>
                 <NewArrival/>
+                <FeaturedProducts/>
+
                 <Collection/>
                 <Categories/>
 
